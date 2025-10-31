@@ -1,0 +1,157 @@
+# ===============================
+# 🧠 GEN AI + LANGCHAIN PROJECT
+# ===============================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+*.log
+*.pot
+*.pyc
+*.pkl
+*.pickle
+*.pyo
+*.swp
+*.bak
+
+# --- Virtual Environment ---
+.venv/
+venv/
+env/
+ENV/
+.idea/
+.vscode/
+.ipynb_checkpoints/
+.DS_Store
+
+# --- Cache / Build ---
+build/
+dist/
+*.egg-info/
+.eggs/
+.cache/
+*.spec
+*.tmp
+*.log
+logs/
+**/__pycache__/
+
+# --- Data / Models ---
+data/
+datasets/
+*.csv
+*.json
+*.tsv
+*.xlsx
+*.db
+*.sqlite
+*.h5
+*.npy
+*.npz
+*.parquet
+*.zip
+*.tar
+*.gz
+
+# --- Vectorstores & Indexes ---
+chroma/
+chroma_db/
+vectorstore/
+index/
+faiss_index/
+*.faiss
+*.bin
+*.index
+
+# --- Models & Checkpoints ---
+models/
+checkpoints/
+weights/
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.tflite
+
+# --- LangChain / Embeddings ---
+# (embedding cache / persisted vectorstores)
+persist_directory/
+langchain.db
+*.pkl
+*.sav
+*.emb
+*.hdf5
+
+# --- Secrets / Credentials ---
+.env
+.env.*
+*.pem
+*.key
+*.crt
+apikey.txt
+openai_api_key.txt
+credentials.json
+token.json
+
+# --- Jupyter / Colab ---
+*.ipynb_checkpoints
+*.ipynb_checkpoints/*
+outputs/
+notebooks/.ipynb_checkpoints/
+
+# --- Temporary / Generated Files ---
+tmp/
+temp/
+output/
+uploads/
+downloads/
+results/
+logs/
+experiments/
+
+# --- VSCode / PyCharm ---
+.vscode/
+.idea/
+*.iml
+
+# --- System Files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Ollama ---
+ollama_models/
+ollama_cache/
+ollama_output/
+
+# --- RAG / Knowledge Base ---
+vector_db/
+local_db/
+rag_storage/
+pdfs/
+documents/
+docs_cache/
+
+# --- Streamlit / FastAPI / Flask (if used) ---
+*.db.sqlite3
+instance/
+*.db-journal
+
+# --- Tests / Reports ---
+coverage/
+htmlcov/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# ===============================
+# END OF FILE
+# ===============================
+.env
+.env/
